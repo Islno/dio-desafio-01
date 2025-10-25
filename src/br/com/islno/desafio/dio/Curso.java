@@ -7,6 +7,9 @@ public class Curso {
     private String descricao;
     private LocalDate cargaHoraria =  LocalDate.now();
 
+    public Curso() {
+    }
+
     public String getTitulo() {
         return titulo;
     }
